@@ -1,38 +1,51 @@
-<!--- Create an HTML file named index.html.
-Use the <!DOCTYPE html> declaration at the beginning of the file to indicate that it's an HTML document.
-Create a head section that includes a title element with the text "My Resume".
-Inside the body section, write HTML code to create an online resume covering the following aspects:
-Summary or objective statement
-Education (list degrees, schools, and dates)
-Work experience (list job titles, employers, dates, and responsibilities)
-Skills (list relevant skills or areas of expertise)
-Awards, certifications, or other achievements (list any relevant awards, certifications, or other accomplishments)
-Use appropriate HTML tags to format the content of each section, such as h1 for section headings and ul or ol for lists.
-Use HTML tags to add a profile photo of yourself.
-Use relevant anchor tags to create a multi-page website, listing other aspects of your resume such as Hobbies and Contact details.
-Add a footer element with your name and any copyright information or other disclaimers. (Hint: use the MDN docs for things you don't know how to do: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
-Save the index.html file and open it in a web browser to ensure that it displays correctly.
-Add your website to your GitHub to start building your portfolio.
-Publish your website using GitHub pages and share it here (in the Q&A) with other students.
-Comment and make suggestions to other students' projects.
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+
+    <!--first text format code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+
+<!--second text format code-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Playwrite+BE+VLG:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
+<style>
+   html{
+    
+    background-color: black;
+    color: white;
+    font-family: "Bona Nova SC", serif;
+      font-weight: 400;
+      font-style: italic;
+   }
+
+   img{
+    border-radius: 15px;
+    border: bold white;
+   }
+
+   h2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+   }
+</style>
 <body>
-<center>
- <H2>RASHMI KUMARI</H2>
-</center>
-   
-    <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.6435-9/117192644_693024264615264_7306779282862630693_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=53a332&_nc_ohc=cKYxnt48b98Q7kNvgFKkzW_&_nc_ht=scontent.fpat2-2.fna&oh=00_AYCLGEHbTkilhyIjbY4tjLBjR9qph4qE2LjhFEUrPvagaQ&oe=66BEAFB6 " width="90" length="100"  
+    <H2>RASHMI KUMARI</H2>
+    <img src="https://scontent.fpat2-5.fna.fbcdn.net/v/t39.30808-6/275493516_1049080702342950_8045255317304560865_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=52bb43&_nc_ohc=CyTvRlwhGG4Q7kNvgEzPNWK&_nc_ht=scontent.fpat2-5.fna&oh=00_AYDEPy4CXH1qYMdTbC--yhJhdEcoTTw9O38toY9Shi5Nqw&oe=66A83470" width="200" length="150"  
     alt="my pic"/>
     <br />
     <a href="./contact.html" alt="to conatct me or find my contact details">Contact me</a>
-    <h4>A corporate employee and a job seeker looking for high paying job. </h4>
+    <h4>A corporate employee and a job seeker looking for knowledge enhancing and high paying job. </h4>
     <hr />
 
     <h3>Skills</h3>
@@ -128,20 +141,27 @@ Comment and make suggestions to other students' projects.
 <br />
 <b>Accomplishments</b>
 <ul>
-    <li>Recently won 10km run</li>
+    <li>Won 10km run |4th FEB 2024</li>
     <li>got appreciation award by client to get things done</li>
     <li>got several psycology certficates</li>
 </ul>
 <br />
 <b>Certifications</b>
+<ul>
+    <li>Digital:NoSQL intermediate </li>
+    <li>Generative AI Foundation Curriculum</li>
+</ul>
 <br />
 <b>Websites, Portfolios, Profiles</b>
 <br>
 <ul>
-    <li><a href="https://rash0m.github.io/html-portfolio/" alt="github repo">Github link to portfolio</a></li>
-     <li> <a href="https://www.linkedin.com/rashmi-kumari-28840b207/" alt="linkedin link"> Linkedin Profile </a></li>  
+    <li><a href="https://github.com/rash0m" alt="github repo">Github link to portfolio</a></li>
+     <li> <a href="https://www.linkedin.com/in/rashmi-kumari-28840b207/" alt="linkedin link"> Linkedin Profile </a></li>  
     
 </ul>
 
 </body>
+<footer>
+    <p>©Going on</p>
+</footer>
 </html>
